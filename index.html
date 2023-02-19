@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@400;700&family=Montserrat:wght@400;900&family=PT+Serif+Caption&family=Source+Sans+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e8704c86f4.js" crossorigin="anonymous"></script>
+    <title>HTML CV</title>
+    <style>
+        *{
+            overflow-x: hidden;
+        }
+        h1{
+            font-size: 50px;
+            margin: 25px auto 0px auto;
+            color: white;
+            line-height: 2;
+            font-family: 'Merriweather', serif;
+            padding: 0 auto 30px 0px;
+        }
+        h2{
+            font-family: 'Merriweather', serif;
+            font-size: 2.5rem;
+            color: white;
+            font-weight: bold;
+            margin-top: 0px;
+            text-align: center;
+        }
+        img{
+            float: left;
+            padding: 20px;
+            padding-right: 25px;
+            width: 150px;
+        }
+        body{
+            margin: -8px;
+        }
+        table{
+            border-spacing: 10px;
+            padding-left: 10px;
+            font-size: 19px;
+        }
+        p{
+            margin: 0;
+        }
+        ul{
+            margin-top: 5px;
+        }
+        li{
+            list-style-position: inside 
+        }
+        hr  {
+            border-style: none;
+            border-top-style: dotted;
+            border-color: #DBA39A;
+            border-width: 5px;
+            height: 0px;
+            width: 5%;
+            font-weight: bolder;
+            padding-bottom: 20px;
+        }
+        .top-container{
+            background-color: #DBA39A;
+            padding: 75px 350px 30px;
+            display: block;
+        }
+        .top-inside-container{
+            margin: 0;
+            padding-top: 50px;
+        }
+        .body-container{
+            background-color: #F5EBE0;
+            padding: 35px 375px 35px 350px;
+        }
+        .desc-home{
+            color: white;
+            margin: 0;
+        }
+        .sub-title{
+            font-family: 'Merriweather', serif;
+            padding: 0px 20px;
+            /* padding-bottom: 0px; */
+            font-size: 2rem;
+            color: #DBA39A;
+            margin-bottom: 12px;
+        }
+        .sub-title:hover{
+            color: white;
+        }
+        .school-title{
+            padding: 0;
+            margin: 0;
+            padding-left: 15px;
+        }
+        .school-year{
+            padding-left: 250px;
+            margin: 0;
+            color: darkgrey;
+        }
+        .desc{
+            margin: 0;
+            padding-left: 30px;
+            font-size: 19px;
+        }
+        .exp-desc{
+            font-size: 2rem;
+            margin: 0;
+            padding-left: 20px;
+        }
+        .date{
+            size: 1.5rem;
+            color: darkgrey;
+        }
+        .school-year:hover, .date:hover{
+            color: black;
+        }
+        .bottom-container{
+            background-color: #DBA39A;
+            border-top: #DBA39A;
+            border-width: 20px;
+            padding: 3% 40% 2%;
+            text-align: center;
+        }
+        .fa-footer{
+            color: #000;
+            size: 10%;
+            padding: 1% 4%;
+        }
+        .fa-footer:hover{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="top-container">
+        <img src="image/profile-photo.jpeg" alt="">
+        <div class="top-inside-container">
+            <h1>Nabila A'idah Diani</h1>
+            <p class="desc-home">An Informatics Engineering student who is currently expanding her knowledge and is seeking for experiences.</p>
+        </div>
+    </div>
+    <div class="body-container">
+        <h3 class="sub-title">Education</h3>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <p class="school-title">Institut Teknologi Sepuluh Nopember Surabaya</p>
+                    </td>
+                    <td>
+                        <p class="school-year">2021 - Now</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="school-title">SMA Negeri 2 Surabaya</p>
+                    </td>
+                    <td>
+                        <p class="school-year">2018 - 2021</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="school-title">SMP Negeri 6 Surabaya</p>
+                    </td>
+                    <td>
+                        <p class="school-year">2015 - 2018</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h3 class="sub-title">Experiences</h3>
+        <h5 class="exp-desc">Schematics</h5>
+        <div class="desc">
+            <p>Bootcamp and Seminar of Technology 2023 | Research and Documentation Staff</p>
+            <p class="date">Dec 2022 - Now</p>
+            <ul>
+                <li>Preparing seminar and bootcamp related documents, including ToR and MoU</li>
+                <li>Developing curriculum used in bootcamp</li>
+                <li>Developing issues presented by speaker and mentor</li>
+            </ul>
+            <p>National Seminar of Techonology 2022 | Research and Documentation Staff</p>
+            <p class="date">May 2022 - Oct 2022</p>
+            <ul>
+                <li>Preparing seminar related documents, including ToR</li>
+                <li>Handling creative material concepts used in off line area of seminar</li>
+                <li>Preparing and building scripts used by moderator and master of ceremony</li>
+            </ul>
+            <p>National Seminar of Techonology 2022 | Liaison Officer</p>
+            <p class="date">Sep 2022 - Oct 2022</p>
+            <ul>
+                <li>Mantaining the relationship between speaker and Schematics NST</li>
+                <li>Assisting speaker and their needs throughout a one day event</li>
+            </ul>
+        </div>
+        <hr>
+        <h3 class="sub-title">Skills</h3>
+        <div class="desc">
+            <p>Technical skill: C, C++, Java, HTML, CSS, SQL</p>
+            <p>Language skill: native in Bahasa Indonesia; fluent in English; beginner in French</p>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <h2>Get In Touch</h2>
+        <a href="mailto:nabilaaidahd@gmail.com"><i class="fa-solid fa-envelope fa-footer fa-2x"></i></a>
+        <a href="https://github.com/nabilaaidah"><i class="fa-brands fa-github fa-footer fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/nabila-a-idah-diani-8a0085230/"><i class="fa-brands fa-linkedin fa-footer fa-2x"></i></a>
+    </div>
+</body>
+</html>
